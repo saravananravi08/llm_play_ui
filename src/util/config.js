@@ -7,7 +7,8 @@ export function Configure() {
     apiKey: "",
     model: "gpt-3.5-turbo-16k",
     accessToken: "",
-    systemPrompt: "I am your assistant to onboard this platform",
+    systemPrompt:
+      "I'm here to help you in the onboarding process, Let's start with your name. Can you provide your name ?",
     temperature: 1,
     topP: 1,
     presencePenalty: 0,
